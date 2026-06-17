@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ruoyi Vue Pro"
+  short_description: "Repo-specific patterns and workflows for ruoyi-vue-pro"
+  default_prompt: "Use the ruoyi-vue-pro repo skill to follow existing architecture, testing, and workflow conventions."
+policy:
+  allow_implicit_invocation: true
