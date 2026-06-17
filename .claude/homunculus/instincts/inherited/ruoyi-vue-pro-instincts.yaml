@@ -1,0 +1,299 @@
+# Instincts generated from https://github.com/wbecho/ruoyi-vue-pro
+# Generated: 2026-06-17T02:41:26.135Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: ruoyi-vue-pro-commit-conventional
+trigger: "when writing a commit message"
+confidence: 0.85
+domain: git
+source: repo-analysis
+source_repo: https://github.com/wbecho/ruoyi-vue-pro
+---
+
+# Ruoyi Vue Pro Commit Conventional
+
+## Action
+
+Use conventional commit format with prefixes: feat
+
+## Evidence
+
+- 1 commits analyzed
+- Detected conventional commit pattern
+- Examples: feat: 项目初始化
+
+---
+id: ruoyi-vue-pro-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/wbecho/ruoyi-vue-pro
+---
+
+# Ruoyi Vue Pro Commit Length
+
+## Action
+
+Keep commit messages concise (~11 characters)
+
+## Evidence
+
+- Average commit message length: 11 chars
+- Based on 1 commits
+
+---
+id: ruoyi-vue-pro-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/wbecho/ruoyi-vue-pro
+---
+
+# Ruoyi Vue Pro Naming Files
+
+## Action
+
+Use PascalCase naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: PascalCase
+
+---
+id: ruoyi-vue-pro-import-relative
+trigger: "when importing modules"
+confidence: 0.75
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/wbecho/ruoyi-vue-pro
+---
+
+# Ruoyi Vue Pro Import Relative
+
+## Action
+
+Use relative imports for project files
+
+## Evidence
+
+- Import analysis shows relative import pattern
+- Example: import { x } from '../lib/x'
+
+---
+id: ruoyi-vue-pro-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/wbecho/ruoyi-vue-pro
+---
+
+# Ruoyi Vue Pro Export Style
+
+## Action
+
+Prefer named exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: named
+
+---
+id: ruoyi-vue-pro-test-naming
+trigger: "when creating a test file"
+confidence: 0.85
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/wbecho/ruoyi-vue-pro
+---
+
+# Ruoyi Vue Pro Test Naming
+
+## Action
+
+Name test files using the pattern: *.test.ts
+
+## Evidence
+
+- File pattern: *.test.ts
+- Consistent across test files
+
+---
+id: ruoyi-vue-pro-instinct-class-naming
+trigger: "When creating a new Java class file"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: wbecho/ruoyi-vue-pro
+---
+
+# Ruoyi Vue Pro Instinct Class Naming
+
+## Action
+
+Name the class using PascalCase
+
+## Evidence
+
+- Naming conventions: classes use PascalCase
+
+---
+id: ruoyi-vue-pro-instinct-function-naming
+trigger: "When defining a Java method/function"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: wbecho/ruoyi-vue-pro
+---
+
+# Ruoyi Vue Pro Instinct Function Naming
+
+## Action
+
+Name the function using camelCase
+
+## Evidence
+
+- Naming conventions: functions use camelCase
+
+---
+id: ruoyi-vue-pro-instinct-constant-naming
+trigger: "When declaring a constant in Java"
+confidence: 0.9
+domain: code-style
+source: repo-analysis
+source_repo: wbecho/ruoyi-vue-pro
+---
+
+# Ruoyi Vue Pro Instinct Constant Naming
+
+## Action
+
+Name the constant using SCREAMING_SNAKE_CASE
+
+## Evidence
+
+- Naming conventions: constants use SCREAMING_SNAKE_CASE
+
+---
+id: ruoyi-vue-pro-instinct-file-naming
+trigger: "When creating a new Java file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: wbecho/ruoyi-vue-pro
+---
+
+# Ruoyi Vue Pro Instinct File Naming
+
+## Action
+
+Name the file using PascalCase
+
+## Evidence
+
+- Naming conventions: files use PascalCase
+
+---
+id: ruoyi-vue-pro-instinct-import-style
+trigger: "When importing modules or classes"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: wbecho/ruoyi-vue-pro
+---
+
+# Ruoyi Vue Pro Instinct Import Style
+
+## Action
+
+Use relative import paths
+
+## Evidence
+
+- importStyle: relative
+
+---
+id: ruoyi-vue-pro-instinct-export-style
+trigger: "When exporting modules or classes"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: wbecho/ruoyi-vue-pro
+---
+
+# Ruoyi Vue Pro Instinct Export Style
+
+## Action
+
+Use named exports
+
+## Evidence
+
+- exportStyle: named
+
+---
+id: ruoyi-vue-pro-instinct-test-file-pattern
+trigger: "When creating a test file"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: wbecho/ruoyi-vue-pro
+---
+
+# Ruoyi Vue Pro Instinct Test File Pattern
+
+## Action
+
+Name the file with the pattern *.test.ts
+
+## Evidence
+
+- test filePattern: *.test.ts
+
+---
+id: ruoyi-vue-pro-instinct-test-type
+trigger: "When writing tests"
+confidence: 0.7
+domain: testing
+source: repo-analysis
+source_repo: wbecho/ruoyi-vue-pro
+---
+
+# Ruoyi Vue Pro Instinct Test Type
+
+## Action
+
+Write unit tests
+
+## Evidence
+
+- testTypes: unit
+
+---
+id: ruoyi-vue-pro-instinct-commit-format
+trigger: "When writing a git commit message"
+confidence: 0.9
+domain: git
+source: repo-analysis
+source_repo: wbecho/ruoyi-vue-pro
+---
+
+# Ruoyi Vue Pro Instinct Commit Format
+
+## Action
+
+Use the conventional commit format with the 'feat' prefix for features
+
+## Evidence
+
+- commits: type conventional, prefix 'feat'
+- Example: 'feat: 项目初始化'
+
